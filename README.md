@@ -1,44 +1,34 @@
-# .
+# Ci'Horreur
 
-This template should help get you started developing with Vue 3 in Vite.
+O “Ci'Horreur” é um site sobre cinema de terror, que reúne filmes com altas avaliações e relevância no gênero. A plataforma inclui clássicos e produções recentes, além de informações sobre enredos, diretores e elenco. É um espaço interativo para quem gosta de suspense, horror psicológico e histórias sombrias.
 
-## Recommended IDE Setup
+## Funcionalidades
+1. O sistema deve conter apenas *filmes do gênero terror*.
+2. O sistema deve conter a sinopse de todo filme que estiver no site.
+3. O sistema deve conter a data de lançamento de todo filme que estiver no site.
+4. O sistema deve conter a idade indicativa de cada filme do site.
+5. O sistema deve conter as avaliações dos usuários de cada filme.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. O site tem  que ter menu hambúrguer para facilitar a navegação no site..
+2. O site tem que ter as redes sociais do site.
+3. O site tem que estar funcionando 24 horas por dia.
+4. O tempo de resposta do sistema tem que ser inferior a 2,5 segundos para qualquer requisição.
+ 
 
-## Recommended Browser Setup
+## Tecnologias
+- vue
+- [API TMDB](https://www.themoviedb.org/)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Como usar
+[Link do site](https://cihorreur.vercel.app/)
 
-## Customize configuration
+## Redes sociais do projeto
+- [Instagram](https://www.instagram.com/ci.horreur/)
+- [Spotify](https://open.spotify.com/playlist/7vrpeoeosmKOt8OJ8xJNZo)
+- [Email](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjWLVhSwWHdrnmmmptCfCMrTMSqrcbWRLrpzrbzZMwFtgRHCfrtNsxfVnTSvMkWpjlBB) *ifc.ci.horreur@gmail.com*
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## **Contato Desenvolvedores**
+- Pedro Gabriel Vieira *fafnir.pgv@gmail.com*
+- Sara Schulz *Sara.ifc2024@gamil.com*
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
