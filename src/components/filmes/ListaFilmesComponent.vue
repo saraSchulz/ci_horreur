@@ -50,7 +50,7 @@ function openMovie(movieId) {
         <div class="img">
         <img class="capa" :src="movie.poster_path
           ? `https://image.tmdb.org/t/p/original${movie.poster_path}`
-          : `/public/semCapa.png`" :alt="movie.title"  />
+          : `/semCapa.png`" :alt="movie.title"  />
         </div>
         <div class="movie-details">
           <p class="movie-title">{{ movie.title }}</p>
