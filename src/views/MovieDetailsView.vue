@@ -18,7 +18,7 @@ onMounted(async () => { await movieStore.getMovieDetail(props.movieId); });
       </div>
        <div class="info">
       <img
-        :src="movieStore.currentMovie.poster_path ? `https://image.tmdb.org/t/p/original${movieStore.currentMovie.poster_path}` : `/public/SemCapaMovie.png`"
+        :src="movieStore.currentMovie.poster_path ? `https://image.tmdb.org/t/p/original${movieStore.currentMovie.poster_path}` : `/SemCapaMovie.png`"
         :alt="movieStore.currentMovie.title"
       />
       <div class="detalhes">
